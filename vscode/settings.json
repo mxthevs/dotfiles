@@ -1,0 +1,65 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.labelFormat": "short",
+    "workbench.colorTheme": "One Dark Pro Monokai Darker",
+    "workbench.iconTheme": "material-icon-theme",
+
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontSize": 14,
+
+    "editor.tabSize": 2,
+    "editor.fontSize": 14.5,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 20,
+    "editor.renderLineHighlight": "gutter",
+    "editor.parameterHints.enabled": false,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "phase",
+    "editor.rulers": [80, 120],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+
+    "diffEditor.ignoreTrimWhitespace": false,
+
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "node_modules": true,
+        "**/*.bs.js": true
+    },
+    "files.associations": {
+        ".prettierrc": "json",
+        "*.tsx": "typescriptreact"
+    },
+
+    "extensions.ignoreRecommendations": true,
+
+    "css.colorDecorators.enable": false,
+    "scss.colorDecorators.enable": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "typescript.tsserver.log": "off",
+    "[rescript]": {
+        "editor.defaultFormatter": "chenglou92.rescript-vscode",
+        "editor.formatOnSave": true
+    },
+
+    "emmet.syntaxProfiles": { "javascript": "jsx" },
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+    "git.enableSmartCommit": true,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.enabled": false
+}
