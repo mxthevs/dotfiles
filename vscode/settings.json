@@ -62,6 +62,7 @@
     "emmet.includeLanguages": { "javascript": "javascriptreact" },
 
     "git.enableSmartCommit": true,
+    "git.enableCommitSigning": true,
     "gitlens.codeLens.recentChange.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.enabled": false
