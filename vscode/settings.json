@@ -1,7 +1,6 @@
 {
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.labelFormat": "short",
-    "workbench.colorTheme": "One Dark Pro Monokai Darker",
     "workbench.iconTheme": "material-icon-theme",
 
     "terminal.integrated.fontFamily": "Fira Code",
@@ -16,7 +15,7 @@
     "editor.parameterHints.enabled": false,
     "editor.cursorSmoothCaretAnimation": true,
     "editor.cursorBlinking": "phase",
-    "editor.rulers": [80, 120],
+    "editor.rulers": [80,120],
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
@@ -26,14 +25,14 @@
     "explorer.compactFolders": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    
+
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "node_modules": true,
+        "node_modules": true
         // "**/*.bs.js": true
     },
     "files.associations": {
@@ -43,6 +42,12 @@
 
     "extensions.ignoreRecommendations": true,
 
+    "git.enableSmartCommit": true,
+    "git.enableCommitSigning": true,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.enabled": false,
+
     "css.colorDecorators.enable": false,
     "scss.colorDecorators.enable": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
@@ -50,10 +55,12 @@
     "typescript.suggest.autoImports": true,
     "typescript.updateImportsOnFileMove.enabled": "never",
     "typescript.tsserver.log": "off",
+
     "[rescript]": {
         "editor.defaultFormatter": "chenglou92.rescript-vscode",
         "editor.formatOnSave": true
     },
+
     "[reason][ocaml][dune][dune-project][ocaml.opam]": {
         "editor.formatOnSave": true
     },
@@ -61,9 +68,5 @@
     "emmet.syntaxProfiles": { "javascript": "jsx" },
     "emmet.includeLanguages": { "javascript": "javascriptreact" },
 
-    "git.enableSmartCommit": true,
-    "git.enableCommitSigning": true,
-    "gitlens.codeLens.recentChange.enabled": false,
-    "gitlens.codeLens.authors.enabled": false,
-    "gitlens.codeLens.enabled": false
+    "workbench.colorTheme": "One Dark Pro Monokai Darker"
 }
