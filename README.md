@@ -2,8 +2,12 @@
 
 ## Syncing config files
 
+Give execution permission to the script:
 ```console
 chmod +x sync.sh
+```
 
-./sync -a
+Update all dotfiles with:
+```console
+./sync.sh -a
 ```
