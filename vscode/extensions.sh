@@ -1,6 +1,5 @@
 #!/bin/sh
 
-code --install-extension bungcip.better-toml
 code --install-extension chenglou92.rescript-vscode
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension eamodio.gitlens
